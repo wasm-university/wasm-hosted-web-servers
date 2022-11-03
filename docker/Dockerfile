@@ -8,9 +8,10 @@ RUN sudo apt-get update && \
 USER gitpod
 
 RUN brew install bat && \
-    brew install exa && \
-    brew install hey && \
-    brew install redis
+    brew install exa
+    #&& \
+    #brew install hey && \
+    #brew install redis
 
 # ------------------------------------
 # Install TinyGo
