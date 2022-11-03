@@ -1,0 +1,47 @@
+image: k33g/wasm-rust-microservice:0.0.0
+
+tasks:
+  - name: initialize
+    before: |
+
+      # ------------------------------------
+      # wasmer
+      # ------------------------------------
+      source /home/gitpod/.wasmer/wasmer.sh
+      wasmer --version
+      # ------------------------------------
+      # wasmtime
+      # ------------------------------------
+      wasmtime --version
+      # ------------------------------------
+      # wasmedge dependencies
+      # ------------------------------------
+      source /home/gitpod/.wasmedge/env
+      wasmedge --version
+
+#    init: |
+#      echo "🚀 initialize"
+#      clear
+
+#  - name: wazero-step-by-step
+#    command: |
+#      cd wazero-step-by-step
+#      clear
+#  - name: zero-to-hero
+#    command: |
+#      cd zero-to-hero
+#      clear
+
+ports:
+  - port: 8080
+    visibility: public
+  - port: 3000
+    visibility: public
+  - port: 5000
+    visibility: public
+
+vscode:
+  extensions:
+    - golang.go
+    - pkief.material-icon-theme
+    - aaron-bond.better-comments
