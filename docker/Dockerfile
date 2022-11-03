@@ -1,4 +1,5 @@
-FROM gitpod/workspace-full
+#FROM gitpod/workspace-full
+FROM gitpod/workspace-dotnet
 
 
 RUN sudo apt-get update && \
