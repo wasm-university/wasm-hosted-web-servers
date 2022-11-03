@@ -24,7 +24,7 @@ RUN rm tinygo_${TINYGO_VERSION}_amd64.deb
 # ------------------------------------
 # Install Wasi Runtimes
 # ------------------------------------
-RUN curl -sSf https://raw.githubusercontent.com/WasmEdge/WasmEdge/master/utils/install.sh | bash -s -- -v 0.10.0 && \
+RUN curl -sSf https://raw.githubusercontent.com/WasmEdge/WasmEdge/master/utils/install.sh | bash -s -- -v 0.11.1 && \
     curl https://get.wasmer.io -sSfL | sh && \
     curl https://wasmtime.dev/install.sh -sSf | bash
 
