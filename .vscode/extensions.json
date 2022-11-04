@@ -2,7 +2,6 @@
   "recommendations": [
     "golang.go",
     "pkief.material-icon-theme",
-    "aaron-bond.better-comments",
-
+    "aaron-bond.better-comments"
   ]
 }
