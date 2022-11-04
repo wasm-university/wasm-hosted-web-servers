@@ -45,3 +45,5 @@ vscode:
     - golang.go
     - pkief.material-icon-theme
     - aaron-bond.better-comments
+    - ms-dotnettools.vscode-dotnet-runtime
+    - matklad.rust-analyzer

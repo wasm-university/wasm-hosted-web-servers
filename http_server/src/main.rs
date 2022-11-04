@@ -13,6 +13,7 @@ fn handle_http(req: Request<String>) -> bytecodec::Result<Response<String>> {
 }
 
 fn handle_client(mut stream: TcpStream) -> std::io::Result<()> {
+
     let mut buff = [0u8; 1024];
     let mut data = Vec::new();
 
