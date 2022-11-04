@@ -22,7 +22,6 @@ tasks:
 #    init: |
 #      echo "🚀 initialize"
 #      clear
-
 #  - name: wazero-step-by-step
 #    command: |
 #      cd wazero-step-by-step
@@ -31,7 +30,6 @@ tasks:
 #    command: |
 #      cd zero-to-hero
 #      clear
-
 ports:
   - port: 8080
     visibility: public
@@ -46,4 +44,5 @@ vscode:
     - pkief.material-icon-theme
     - aaron-bond.better-comments
     - ms-dotnettools.vscode-dotnet-runtime
-    - https://github.com/rust-lang/rust-analyzer/releases/download/2022-10-31/rust-analyzer-linux-x64.vsix
+    #- https://github.com/rust-lang/rust-analyzer/releases/download/2022-10-31/rust-analyzer-linux-x64.vsix
+    - rust-lang.rust-analyzer
