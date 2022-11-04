@@ -45,4 +45,3 @@ vscode:
     - aaron-bond.better-comments
     - ms-dotnettools.vscode-dotnet-runtime
     #- https://github.com/rust-lang/rust-analyzer/releases/download/2022-10-31/rust-analyzer-linux-x64.vsix
-    - rust-lang.rust-analyzer
