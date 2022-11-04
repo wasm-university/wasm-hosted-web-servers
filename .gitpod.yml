@@ -46,4 +46,4 @@ vscode:
     - pkief.material-icon-theme
     - aaron-bond.better-comments
     - ms-dotnettools.vscode-dotnet-runtime
-    - matklad.rust-analyzer
+    - https://github.com/rust-lang/rust-analyzer/releases/download/2022-10-31/rust-analyzer-linux-x64.vsix
