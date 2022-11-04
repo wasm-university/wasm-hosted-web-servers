@@ -1,5 +1,5 @@
 {
-  "image": "k33g/wasm-rust-microservice:0.0.3",
+  "image": "k33g/wasm-hosted-web-servers:0.0.0",
   "forwardPorts": [8080,3000,5000],
   "postCreateCommand": "echo 'hello'",
   "customizations": {
