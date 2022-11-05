@@ -4,6 +4,7 @@ use std::io::{Read, Write};
 use wasmedge_wasi_socket::{Shutdown, TcpListener, TcpStream};
 
 fn handle_http(req: Request<String>) -> bytecodec::Result<Response<String>> {
+
     Ok(Response::new(
         HttpVersion::V1_0,
         StatusCode::new(200)?,
@@ -13,7 +14,7 @@ fn handle_http(req: Request<String>) -> bytecodec::Result<Response<String>> {
 }
 
 fn handle_client(mut stream: TcpStream) -> std::io::Result<()> {
-    
+
     let mut buff = [0u8; 1024];
     let mut data = Vec::new();
 
@@ -51,6 +52,7 @@ fn handle_client(mut stream: TcpStream) -> std::io::Result<()> {
     stream.shutdown(Shutdown::Both)?;
     Ok(())
 }
+
 
 fn main() -> std::io::Result<()> {
     let port = std::env::var("PORT").unwrap_or("1234".to_string());
