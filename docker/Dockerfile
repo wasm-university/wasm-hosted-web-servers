@@ -9,7 +9,7 @@ USER gitpod
 
 RUN brew install bat && \
     brew install exa && \
-    brew install hey &&
+    brew install hey
     #brew install redis
 
 # ------------------------------------
