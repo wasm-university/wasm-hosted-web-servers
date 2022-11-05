@@ -4,7 +4,7 @@ use std::io::{Read, Write};
 use wasmedge_wasi_socket::{Shutdown, TcpListener, TcpStream};
 
 fn handle_http(req: Request<String>) -> bytecodec::Result<Response<String>> {
-
+    
     Ok(Response::new(
         HttpVersion::V1_0,
         StatusCode::new(200)?,
