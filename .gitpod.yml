@@ -19,6 +19,9 @@ tasks:
       source /home/gitpod/.wasmedge/env
       wasmedge --version
 
+      export DOTNET_ROOT=$HOME/dotnet
+      export PATH=$PATH:$HOME/dotnet
+
 #    init: |
 #      echo "🚀 initialize"
 #      clear

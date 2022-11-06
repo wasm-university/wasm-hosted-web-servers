@@ -35,3 +35,4 @@ gp url 8080
 wasmtime bin/Debug/net7.0/hello.wasm --tcplisten localhost:8080
 ```
 
+Make sure the .NET Core SDK is installed and is on the path.
