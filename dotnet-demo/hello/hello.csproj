@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Wasi.AspNetCore.Server.Native" Version="0.1.2-preview.10061" />
+    <PackageReference Include="Wasi.Sdk" Version="0.1.2-preview.10061" />
+  </ItemGroup>
+
+</Project>

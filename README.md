@@ -20,3 +20,10 @@
   - https://github.com/second-state/wasmedge_wasi_socket
 - https://wasmedge.org/book/en/use_cases/kubernetes/demo/server.html
 
+
+## Install Docker+WASM
+
+See
+- Docker Desktop https://docs.docker.com/desktop/wasm/
+- Docker Engine https://github.com/chris-crone/wasm-day-na-22
+
