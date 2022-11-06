@@ -1,5 +1,5 @@
-#FROM gitpod/workspace-full
-FROM gitpod/workspace-dotnet
+FROM gitpod/workspace-full
+#FROM gitpod/workspace-dotnet
 
 
 RUN sudo apt-get update && \
@@ -37,7 +37,7 @@ RUN rustup toolchain uninstall stable-x86_64-unknown-linux-gnu && \
     rustup target add wasm32-wasi
 
 # ------------------------------------
-# Install Dot.NEt Core Preview
+# Install Dot.Net Core Preview
 # ------------------------------------
 # See :
 # - https://dotnet.microsoft.com/en-us/download/dotnet/7.0
